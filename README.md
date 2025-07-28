@@ -19,7 +19,7 @@ Follow these steps to set up and install the extension locally:
 ### 1. Clone or Download the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/amitnarw/sentence-rephrase-gemini-chrome-extension.git
 cd your-repo-name
 ```
 
