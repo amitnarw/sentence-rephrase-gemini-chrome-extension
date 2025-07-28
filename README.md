@@ -20,7 +20,7 @@ Follow these steps to set up and install the extension locally:
 
 ```bash
 git clone https://github.com/amitnarw/sentence-rephrase-gemini-chrome-extension.git
-cd your-repo-name
+cd sentence-rephrase-gemini-chrome-extension
 ```
 
 Or simply download the ZIP and extract it.
