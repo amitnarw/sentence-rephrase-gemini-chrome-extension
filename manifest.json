@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "AI Text Rephraser",
+  "version": "1.0",
+  "description": "Rephrase selected text using AI",
+  "permissions": ["contextMenus", "tabs", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["index.html", "assets/*", "icons/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
