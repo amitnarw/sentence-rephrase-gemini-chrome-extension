@@ -83,3 +83,13 @@ Feel free to fork the repository and contribute! For development, you can run:
 npm run dev
 ```
 
+## 🌐 Example `.env` File
+
+Before running the app, create a `.env` file in the root directory and add the following environment variables:
+
+```env
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+VITE_GEMINI_API_URL=https://your.api.endpoint.here
+```
+
+Make sure to replace the values with your actual [Gemini API](https://ai.google.dev/gemini-api) credentials and endpoint.
