@@ -16,7 +16,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
   ) {
     chrome.windows.create({
       url: chrome.runtime.getURL(`index.html?text=${encodeURIComponent(info.selectionText)}`),
-      type: "popup",
+      type: "panel",
       width: 500,   // popup width
       height: 600,  // popup height
       focused: true,
